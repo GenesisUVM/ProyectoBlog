@@ -1,0 +1,39 @@
+/*Estilos del nav-bar*/
+nav{
+    width: 100%;
+    height: 10%;
+    background: #E0E2DB;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+.barraBuscadora{
+    margin: 0.8rem;
+}
+.paginas{
+    list-style: none;
+    display: flex;
+    flex: 6;
+    padding: 0;
+    margin: 0;
+}
+.secciones{
+    margin-left: 0.5rem;
+}
+.barraBuscadora, .socialMedia{
+    flex: 3;
+}
+.logo{
+margin: 0 1rem;
+
+}
+
+.searchIcon{
+    font-size: 1rem;
+    color: #666;
+    cursor: pointer;
+}
+.social{
+    margin: 0.8rem;
+}
