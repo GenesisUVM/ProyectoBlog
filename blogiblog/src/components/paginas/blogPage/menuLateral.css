@@ -1,0 +1,19 @@
+.listGroup{
+    position: absolute;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style-type: disc;
+    margin: 1rem;
+    
+}
+.listGroupItem{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+    padding: 0.5rem;
+    border: 0.1rem solid #cac8c8;  
+    border-radius: 0.3rem;
+}
